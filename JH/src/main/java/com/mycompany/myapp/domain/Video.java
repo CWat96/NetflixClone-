@@ -190,7 +190,7 @@ public class Video implements Serializable {
         this.rating = rating;
     }
 
-    public Set<Video> getVideoURL() {
+    public String getVideoURL() {
         return this.videoURL;
     }
 
